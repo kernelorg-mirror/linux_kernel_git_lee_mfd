@@ -374,6 +374,7 @@ static int mfd_remove_devices_fn(struct device *dev, void *data)
 	kfree(cell);
 
 	platform_device_unregister(pdev);
+
 	return 0;
 }
 
